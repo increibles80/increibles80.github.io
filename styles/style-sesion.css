@@ -164,7 +164,7 @@ h1 {
 
   
   #logo{
-    max-width: 200px;
+    max-width: 150px;
     margin-left: 50px;
     border-radius: 35px;
     box-shadow: 0 0 10px #ff0000,
@@ -292,4 +292,14 @@ h1 {
   align-items: center;
   font-family: Arial, sans-serif;
   margin-top: 150px;
+}
+
+@media (max-width: 768px) {
+    body {
+        height: auto;  /* Adjust height for mobile */
+    }
+    h1 {
+        font-size: 30px;  /* Responsive font size */
+    }
+    /* Add more responsive styles as needed */
 }

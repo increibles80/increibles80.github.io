@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ayúdanos a mantener nuestra radio</title>
+<link href="styles/style-propio.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<h1>Ayúdanos a mantener nuestra radio</h1>
+<nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="#proyecto">El Proyecto</a></li>
+<li><a href="#niveles-colaboracion">Niveles de Colaboración</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="descripcion-proyecto">
+<h2>Descripción del Proyecto</h2>
+<p>Apoya nuestro proyecto para que continue vivo. Necesitamos tu colaboración para que el proyecto pueda ser sostenible en el tiempo y seguir ofreciendo música de calidad las 24h.</p>
+</section>
+<section id="niveles-colaboracion">
+<h2>Niveles de Colaboración</h2>
+<div class="nivel">
+<h3>Nivel 1: Fan de Increibles 80's</h3>
+<p><strong>Contribución:</strong> 5€</p>
+<button onclick="redirigir('apoyo-basico.html')">Seleccionar</button>
+</div>
+<div class="nivel">
+<h3>Nivel 2: Amigo de Increibles 80's</h3>
+<p><strong>Contribución:</strong> 10€</p>
+<button onclick="redirigir('fan-entusiasta.html')">Seleccionar</button>
+</div>
+<div class="nivel">
+<h3>Nivel 3: Amante de Increibles 80's</h3>
+<p><strong>Contribución:</strong> 20€</p>
+<button onclick="redirigir('super-fan.html')">Seleccionar</button>
+</div>
+<div class="nivel">
+<h3>Nivel 4: Loco por Increibles 80's</h3>
+<p><strong>Contribución:</strong> 30€</p>
+<button onclick="redirigir('vip.html')">Seleccionar</button>
+</div>
+</section>
+</main>
+<script>
+        function redirigir(pagina) {
+            window.location.href = 'pasarela-pago.html';
+        }
+    </script>
+<footer id="footer3">
+<p>
+        Este sitio es una representación de una página web para el proyecto de síntesis del ciclo formativo SMIR y solo tiene fines didacticos.
+<br/>
+        En ningun caso tiene fines lucrativos y no dispone de los derechos de reproducción del contenido audiovisual.
+    </p>
+</footer>
+</body>
+</html>
