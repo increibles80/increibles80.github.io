@@ -357,12 +357,120 @@ aside {
 }
 
 
-@media (max-width: 768px) {
-    body {
-        height: auto;  /* Adjust height for mobile */
-    }
-    h1 {
-        font-size: 30px;  /* Responsive font size */
-    }
-    /* Add more responsive styles as needed */
+
+
+
+/* Para pantallas pequeñas como teléfonos móviles */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 24px; /* Ajustar el tamaño de la fuente */
+      line-height: calc(10px + 10vh); /* Reducir el line-height */
+      margin-left: 10px; /* Reducir el margen */
+  }
+
+  #logo {
+      width: 100px; /* Ajustar el tamaño del logo */
+      margin-left: 20px; /* Reducir el margen */
+  }
+
+  #Inicio, #Crowdfounding, #Contacto, #Sesion {
+      padding: 8px 20px; /* Reducir el padding */
+      font-size: 14px; /* Ajustar el tamaño de la fuente */
+      margin-left: 5px; /* Reducir el margen */
+  }
+
+  #header {
+      height: auto; /* Permitir que la altura se ajuste automáticamente */
+      flex-direction: column; /* Cambiar a columna para pantallas más pequeñas */
+      align-items: flex-start; /* Alinear los elementos al inicio */
+      padding: 10px;
+  }
+
+  main {
+      flex-direction: column; /* Cambiar la dirección a columna */
+      width: 95%; /* Ajustar el ancho */
+      margin: 10px auto; /* Ajustar el margen */
+  }
+
+  aside {
+      margin: 10px auto; /* Centrando el aside */
+      width: 100%; /* Asegurarse de que ocupa todo el ancho */
+      height: auto; /* Ajustar la altura */
+      padding: 10px;
+  }
+
+  #curiosidades {
+      margin-left: 0; /* Alinear correctamente el elemento */
+  }
+
+  footer {
+      flex-direction: column; /* Alinear en columna */
+      text-align: center;
+  }
+
+  .video-background {
+      height: 100%; /* Ajustar la altura */
+  }
+}
+
+
+
+
+
+
+
+/* Para pantallas medianas como tabletas */
+@media (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+      font-size: 32px; /* Ajustar el tamaño de la fuente */
+      margin-left: 20px; /* Reducir el margen */
+  }
+
+  #logo {
+      width: 120px; /* Ajustar el tamaño del logo */
+      margin-left: 30px; /* Ajustar el margen */
+  }
+
+  #Inicio, #Crowdfounding, #Contacto, #Sesion {
+      padding: 10px 30px; /* Ajustar el padding */
+      font-size: 16px; /* Ajustar el tamaño de la fuente */
+      margin-left: 10px; /* Reducir el margen */
+  }
+
+  #header {
+      flex-direction: row; /* Mantener la disposición en fila */
+      flex-wrap: wrap; /* Permitir que los elementos se ajusten en varias líneas */
+      height: auto; /* Permitir ajuste de altura */
+  }
+
+  main {
+      width: 90%; /* Ajustar el ancho */
+      margin: 15px auto; /* Ajustar el margen */
+      flex-direction: column; /* Disposición en columna */
+  }
+
+  aside {
+      width: 100%; /* Ocupa todo el ancho */
+      margin: 10px 0; /* Ajustar el margen */
+  }
+
+  .footer-container {
+      flex-direction: column; /* Cambiar a columna si es necesario */
+  }
+}
+
+
+
+
+/* Hacer que las imágenes y vídeos se adapten al contenedor */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Asegurarse de que los contenedores sean flexibles */
+.container {
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
 }

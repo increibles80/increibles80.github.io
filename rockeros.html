@@ -1,72 +1,83 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Campaña: Nuevo Álbum de "Los Rockeros"</title>
-<link href="styles/style-rockero.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaña: Nuevo Álbum de "Los Rockeros"</title>
+    <link rel="stylesheet" href="styles/style-rockero.css">
 </head>
 <body>
-<header>
-<h1>Nuevo Álbum de "Los Rockeros"</h1>
-<nav>
-<ul>
-<li><a href="index.html">Inicio</a></li>
-<li><a href="#proyecto">El Proyecto</a></li>
-<li><a href="#origen-idea">De Dónde Nace la Idea</a></li>
-<li><a href="#niveles-colaboracion">Niveles de Colaboración</a></li>
-</ul>
-</nav>
-</header>
-<main>
-<section id="proyecto">
-<h2>El Proyecto</h2>
-<p>"Los Rockeros" están trabajando en su nuevo álbum, que promete ser un hito en su carrera. Necesitan tu ayuda para cubrir los costos de producción, grabación y lanzamiento.</p>
-</section>
-<section id="origen-idea">
-<h2>De Dónde Nace la Idea</h2>
-<p>La idea de este álbum surgió durante una gira por Europa, donde "Los Rockeros" encontraron inspiración en las culturas y sonidos locales. Quieren plasmar esta experiencia en su nueva música.</p>
-</section>
-<section id="niveles-colaboracion">
-<h2>Niveles de Colaboración</h2>
-<div class="nivel">
-<h3>Nivel 1: Apoyo Básico</h3>
-<p><strong>Contribución:</strong> 10€</p>
-<p><strong>Recompensa:</strong> Agradecimiento en redes sociales y una descarga digital del primer sencillo.</p>
-<button onclick="redirigir('apoyo-basico.html')">Seleccionar</button>
-</div>
-<div class="nivel">
-<h3>Nivel 2: Fan Entusiasta</h3>
-<p><strong>Contribución:</strong> 50€</p>
-<p><strong>Recompensa:</strong> Todo lo anterior + Álbum completo en formato digital y un póster exclusivo.</p>
-<button onclick="redirigir('fan-entusiasta.html')">Seleccionar</button>
-</div>
-<div class="nivel">
-<h3>Nivel 3: Súper Fan</h3>
-<p><strong>Contribución:</strong> 100€</p>
-<p><strong>Recompensa:</strong> Todo lo anterior + Álbum en formato físico firmado por la banda.</p>
-<button onclick="redirigir('super-fan.html')">Seleccionar</button>
-</div>
-<div class="nivel">
-<h3>Nivel 4: VIP</h3>
-<p><strong>Contribución:</strong> 500€</p>
-<p><strong>Recompensa:</strong> Todo lo anterior + Entrada VIP a un concierto y acceso al backstage.</p>
-<button onclick="redirigir('vip.html')">Seleccionar</button>
-</div>
-</section>
-</main>
-<script>
+    <header>
+        <h1>Nuevo Álbum de "Los Rockeros"</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#proyecto">El Proyecto</a></li>
+                <li><a href="#origen-idea">De Dónde Nace la Idea</a></li>
+                <li><a href="#niveles-colaboracion">Niveles de Colaboración</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="proyecto">
+            <h2>El Proyecto</h2>
+            <p>"Los Rockeros" están trabajando en su nuevo álbum, que promete ser un hito en su carrera. Necesitan tu ayuda para cubrir los costos de producción, grabación y lanzamiento.</p>
+        </section>
+
+        <section id="origen-idea">
+            <h2>De Dónde Nace la Idea</h2>
+            <p>La idea de este álbum surgió durante una gira por Europa, donde "Los Rockeros" encontraron inspiración en las culturas y sonidos locales. Quieren plasmar esta experiencia en su nueva música.</p>
+        </section>
+
+        <section id="niveles-colaboracion">
+            <h2>Niveles de Colaboración</h2>
+            <div class="nivel">
+                <h3>Nivel 1: Apoyo Básico</h3>
+                <p><strong>Contribución:</strong> 10€</p>
+                <p><strong>Recompensa:</strong> Agradecimiento en redes sociales y una descarga digital del primer sencillo.</p>
+                <button onclick="redirigir('apoyo-basico.html')">Seleccionar</button>
+            </div>
+            <div class="nivel">
+                <h3>Nivel 2: Fan Entusiasta</h3>
+                <p><strong>Contribución:</strong> 50€</p>
+                <p><strong>Recompensa:</strong> Todo lo anterior + Álbum completo en formato digital y un póster exclusivo.</p>
+                <button onclick="redirigir('fan-entusiasta.html')">Seleccionar</button>
+            </div>
+            <div class="nivel">
+                <h3>Nivel 3: Súper Fan</h3>
+                <p><strong>Contribución:</strong> 100€</p>
+                <p><strong>Recompensa:</strong> Todo lo anterior + Álbum en formato físico firmado por la banda.</p>
+                <button onclick="redirigir('super-fan.html')">Seleccionar</button>
+            </div>
+            <div class="nivel">
+                <h3>Nivel 4: VIP</h3>
+                <p><strong>Contribución:</strong> 500€</p>
+                <p><strong>Recompensa:</strong> Todo lo anterior + Entrada VIP a un concierto y acceso al backstage.</p>
+                <button onclick="redirigir('vip.html')">Seleccionar</button>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <script>
         function redirigir(pagina) {
             window.location.href = 'pasarela-pago.html';
         }
     </script>
+
 <footer id="footer3">
-<p>
+    <p>
         Este sitio es una representación de una página web para el proyecto de síntesis del ciclo formativo SMIR y solo tiene fines didacticos.
-<br/>
+<br>
         En ningun caso tiene fines lucrativos y no dispone de los derechos de reproducción del contenido audiovisual.
     </p>
+        
+
+
+
 </footer>
 </body>
 </html>
+
