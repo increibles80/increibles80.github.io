@@ -76,18 +76,7 @@ body {
   }
 }
 
-footer {
 
-  position: fixed;
-  bottom: 0px;
-  left: 0;
-  width: 100%;
-  padding: 10px 0;
-  display: flex;
-  
-  
-  
-}
 
 .video-background {
   position: fixed;
@@ -258,21 +247,8 @@ display: flex;
 width: 100%; 
 }
 
-#footer2 {
-margin-bottom: 160px;
-display: inline;
-}
-
-#nuestros {
-
-color: aliceblue;
-font-family: Arial, sans-serif;
-margin-left: 50px;
-font-size: 20px;
 
 
-
-}
 
 main {
 font-family: Arial;
@@ -322,9 +298,48 @@ margin-left: -250px;
 
 
 #radio{
-display: flex;
-height: 100px;
-margin-bottom: 73px;
+  display: flex;
+  height: 115px;
+  width: 600px;
+  border-radius: 25px;
+  left: 0;
+  position: fixed;
+  margin-left: 10px;
+
+  
+  }
+
+  footer {
+
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+    
+  
+    
+    background-color: #302d2d;
+    width: 99%;
+    height: 100px;
+    justify-content: space-around;
+    border-radius: 25px;
+    margin-left: 10px;
+    
+    
+    
+    
+  }
+
+
+#disclamer{
+
+  color: aliceblue;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  
 }
 
 #sabias{
@@ -341,19 +356,7 @@ white-space: nowrap;
 color: #fa0707;
 }
 
-#footer3{
-color: aliceblue;
-background-color: #302d2d;
-text-align: center;
-display: flex;
-width: 100%;
-height: 60px;
-font-size: 18px;
-justify-content: center;
-font-family: Arial, sans-serif;
 
-
-}
 
 
 
