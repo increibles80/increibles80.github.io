@@ -85,6 +85,9 @@ h1 {
     width: 100%;
     padding: 10px 0;
     display: flex;
+    justify-content: center; /* Centrar el contenido */
+    background-color: #302d2d; /* Asegúrate de que el color de fondo sea visible */
+    z-index: 10; /* Asegura que esté encima de otros elementos */
     
     
     
@@ -360,56 +363,56 @@ aside {
 
 
 
-/* Para pantallas pequeñas como teléfonos móviles */
+/* Para móviles */
 @media (max-width: 600px) {
   h1 {
-      font-size: 24px; /* Ajustar el tamaño de la fuente */
-      line-height: calc(10px + 10vh); /* Reducir el line-height */
-      margin-left: 10px; /* Reducir el margen */
+      font-size: 24px; 
+      line-height: calc(10px + 10vh); 
+      margin-left: 10px; 
   }
 
   #logo {
-      width: 100px; /* Ajustar el tamaño del logo */
-      margin-left: 20px; /* Reducir el margen */
+      width: 100px; 
+      margin-left: 20px; 
   }
 
   #Inicio, #Crowdfounding, #Contacto, #Sesion {
-      padding: 8px 20px; /* Reducir el padding */
-      font-size: 14px; /* Ajustar el tamaño de la fuente */
-      margin-left: 5px; /* Reducir el margen */
+      padding: 8px 20px; 
+      font-size: 14px; 
+      margin-left: 5px; 
   }
 
   #header {
-      height: auto; /* Permitir que la altura se ajuste automáticamente */
-      flex-direction: column; /* Cambiar a columna para pantallas más pequeñas */
-      align-items: flex-start; /* Alinear los elementos al inicio */
+      height: auto; 
+      flex-direction: column; 
+      align-items: flex-start; 
       padding: 10px;
   }
 
   main {
-      flex-direction: column; /* Cambiar la dirección a columna */
-      width: 95%; /* Ajustar el ancho */
-      margin: 10px auto; /* Ajustar el margen */
+      flex-direction: column; 
+      width: 95%; 
+      margin: 10px auto; /
   }
 
   aside {
-      margin: 10px auto; /* Centrando el aside */
-      width: 100%; /* Asegurarse de que ocupa todo el ancho */
-      height: auto; /* Ajustar la altura */
+      margin: 10px auto; 
+      width: 100%; 
+      height: auto; 
       padding: 10px;
   }
 
   #curiosidades {
-      margin-left: 0; /* Alinear correctamente el elemento */
+      margin-left: 0; 
   }
 
   footer {
-      flex-direction: column; /* Alinear en columna */
+      flex-direction: column; 
       text-align: center;
   }
 
   .video-background {
-      height: 100%; /* Ajustar la altura */
+      height: 100%; 
   }
 }
 
@@ -419,56 +422,56 @@ aside {
 
 
 
-/* Para pantallas medianas como tabletas */
+/* Para tablets */
 @media (min-width: 601px) and (max-width: 1024px) {
   h1 {
-      font-size: 32px; /* Ajustar el tamaño de la fuente */
-      margin-left: 20px; /* Reducir el margen */
+      font-size: 32px; 
+      margin-left: 20px; 
   }
 
   #logo {
-      width: 120px; /* Ajustar el tamaño del logo */
-      margin-left: 30px; /* Ajustar el margen */
+      width: 120px; 
+      margin-left: 30px; 
   }
 
   #Inicio, #Crowdfounding, #Contacto, #Sesion {
-      padding: 10px 30px; /* Ajustar el padding */
-      font-size: 16px; /* Ajustar el tamaño de la fuente */
-      margin-left: 10px; /* Reducir el margen */
+      padding: 10px 30px; 
+      font-size: 16px; 
+      margin-left: 10px; 
   }
 
   #header {
-      flex-direction: row; /* Mantener la disposición en fila */
-      flex-wrap: wrap; /* Permitir que los elementos se ajusten en varias líneas */
-      height: auto; /* Permitir ajuste de altura */
+      flex-direction: row; 
+      flex-wrap: wrap; 
+      height: auto; 
   }
 
   main {
-      width: 90%; /* Ajustar el ancho */
-      margin: 15px auto; /* Ajustar el margen */
-      flex-direction: column; /* Disposición en columna */
+      width: 90%; 
+      margin: 15px auto; 
+      flex-direction: column; 
   }
 
   aside {
-      width: 100%; /* Ocupa todo el ancho */
-      margin: 10px 0; /* Ajustar el margen */
+      width: 100%; 
+      margin: 10px 0; 
   }
 
   .footer-container {
-      flex-direction: column; /* Cambiar a columna si es necesario */
+      flex-direction: column; 
   }
 }
 
 
 
 
-/* Hacer que las imágenes y vídeos se adapten al contenedor */
+
 img, video {
   max-width: 100%;
   height: auto;
 }
 
-/* Asegurarse de que los contenedores sean flexibles */
+
 .container {
   width: 100%;
   padding: 0 10px;
