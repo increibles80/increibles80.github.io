@@ -305,9 +305,11 @@ margin-left: -250px;
   left: 0;
   position: fixed;
   margin-left: 10px;
+  bottom: 140px;
 
   
   }
+
 
   footer {
 
@@ -329,7 +331,7 @@ margin-left: -250px;
     margin-left: 10px;
     color: aliceblue;
     font-size: 16px;
-   font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     
     
     
