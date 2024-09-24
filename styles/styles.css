@@ -414,23 +414,7 @@ color: #fa0707;
   }
 
  
-  #radio {
-    width: 90%; /* Ajustar el ancho al 90% del contenedor */
-    height: auto; /* Permitir que la altura se ajuste automáticamente */
-    margin: 10px auto; /* Centrar el radio y proporcionar margen superior e inferior */
-    left: 50%; /* Centrar horizontalmente */
-    transform: translateX(-50%); /* Asegurar que esté centrado */
-    border-radius: 15px; /* Reducir el radio de la esquina */
-  }
-
-
-  #disclamer {
-    font-size: 14px; /* Reducir el tamaño de la fuente */
-    padding: 5px 10px; /* Ajustar el padding */
-    text-align: center; /* Centrar el texto */
-    margin: 10px auto; /* Centrar el disclaimer */
-    width: 90%; /* Asegurarse de que ocupe el 90% del contenedor */
-  }
+  
 
 }
 
@@ -477,22 +461,7 @@ color: #fa0707;
       flex-direction: column; /* Cambiar a columna si es necesario */
   }
 
-  #radio {
-    width: 80%; /* Ajustar el ancho al 80% */
-    height: auto; /* Permitir que la altura se ajuste automáticamente */
-    left: 50%; /* Centrar el elemento */
-    transform: translateX(-50%);
-    border-radius: 20px; /* Ajustar el borde redondeado */
-    margin: 10px auto; /* Centrar con un margen superior e inferior */
-  }
-
-  #disclamer {
-    font-size: 16px; /* Ajustar el tamaño de la fuente */
-    padding: 10px 15px; /* Ajustar el padding */
-    text-align: center; /* Centrar el texto */
-    margin: 10px auto; /* Centrar el disclaimer */
-    width: 80%; /* Asegurar que ocupe el 80% del contenedor */
-  }
+  
 }
 
 
