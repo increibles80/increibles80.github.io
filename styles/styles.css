@@ -300,11 +300,15 @@ margin-left: -250px;
 #radio{
   display: flex;
   height: 115px;
-  width: 600px;
+  width: 650px;
   border-radius: 25px;
   left: 0;
   position: fixed;
   margin-left: 10px;
+  bottom: 100px;
+
+
+  
 
   
   }
@@ -315,7 +319,7 @@ margin-left: -250px;
     bottom: 0px;
     left: 0;
     width: 100%;
-    padding: 20px 0;
+    
     display: flex;
     text-align: center;
     
@@ -324,16 +328,18 @@ margin-left: -250px;
     background-color: #302d2d;
     width: 99%;
     height: 100px;
-    justify-content: space-around;
+    justify-content: center;
     border-radius: 25px;
     margin-left: 10px;
     color: aliceblue;
-    font-size: 16px;
-   font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
     
-    
-    
-    
+  }
+
+  #disclamer{
+
+    margin-top: -5px;
   }
 
 
