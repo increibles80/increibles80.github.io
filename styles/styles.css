@@ -405,14 +405,33 @@ color: #fa0707;
   }
 
   footer {
-      flex-direction: column; /* Alinear en columna */
-      text-align: center;
+    flex-direction: column; /* Cambiar a disposición en columna */
+    padding: 10px 5px; /* Reducir el padding */
+    height: auto; /* Permitir ajuste de altura */
+    text-align: center;
   }
 
   .video-background {
       height: 100%; /* Ajustar la altura */
   }
+
+  #radio {
+    width: 90%; /* Ajustar el ancho al 90% del contenedor */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+    margin: 10px auto; /* Centrar el radio y proporcionar margen */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Asegurar que esté centrado */
+    border-radius: 15px; /* Reducir el radio de la esquina */
+  }
+
+  #disclamer {
+    margin: 5px auto; /* Centrar el disclaimer */
+    width: 90%; /* Ajustar el ancho */
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+  }
+
 }
+
 
 
 
@@ -455,5 +474,21 @@ color: #fa0707;
 
   .footer-container {
       flex-direction: column; /* Cambiar a columna si es necesario */
+  }
+
+
+  #disclamer {
+    font-size: 15px; /* Ajustar el tamaño de la fuente */
+    margin-right: auto; /* Empujar hacia la izquierda */
+  }
+
+
+  #radio {
+    width: 80%; /* Ajustar el ancho al 80% */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+    left: 50%; /* Centrar el elemento */
+    transform: translateX(-50%);
+    border-radius: 20px; /* Ajustar el borde redondeado */
+    margin: 10px auto; /* Centrar con un margen superior e inferior */
   }
 }
