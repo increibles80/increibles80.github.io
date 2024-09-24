@@ -85,9 +85,9 @@ h1 {
     width: 100%;
     padding: 10px 0;
     display: flex;
-    justify-content: center; /* Centrar el contenido */
-    background-color: #302d2d; /* Asegúrate de que el color de fondo sea visible */
-    z-index: 10; /* Asegura que esté encima de otros elementos */
+    justify-content: center; 
+    background-color: #302d2d; 
+    z-index: 10; 
     
     
     
@@ -409,6 +409,7 @@ aside {
   footer {
       flex-direction: column; 
       text-align: center;
+      padding: 10px;
   }
 
   .video-background {
