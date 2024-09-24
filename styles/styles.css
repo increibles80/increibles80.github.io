@@ -412,10 +412,6 @@ color: #fa0707;
   .video-background {
       height: 100%; /* Ajustar la altura */
   }
-
- 
-  
-
 }
 
 
@@ -460,8 +456,4 @@ color: #fa0707;
   .footer-container {
       flex-direction: column; /* Cambiar a columna si es necesario */
   }
-
-  
 }
-
-
