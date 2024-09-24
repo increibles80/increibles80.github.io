@@ -415,6 +415,8 @@ color: #fa0707;
 
 
 
+
+
 /* Para pantallas medianas como tabletas */
 @media (min-width: 601px) and (max-width: 1024px) {
   h1 {
@@ -453,20 +455,6 @@ color: #fa0707;
   .footer-container {
       flex-direction: column; /* Cambiar a columna si es necesario */
   }
-}
-
-
-/* Hacer que las imágenes y vídeos se adapten al contenedor */
-img, video {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Asegurarse de que los contenedores sean flexibles */
-.container {
-  width: 100%;
-  padding: 0 10px;
-  box-sizing: border-box;
 }
 
 
