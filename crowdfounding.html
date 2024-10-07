@@ -1,185 +1,154 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plataforma de Crowdfunding Musical</title>
-    <link rel="stylesheet" href="styles/style-crowdfounding.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Plataforma de Crowdfunding Musical</title>
+<link href="styles/style-crowdfounding.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <img id="logo" src="Imagenes/logoradio.jpg" alt="logo">
-        <h1>Awesomes 80's</h1>
-        <a href="index.html" target="_blank" id="Inicio">Inicio</a>
-        <a href="contacto.html" target="_blank" id="Contacto">Contacto</a>
-        <a href="sesion.html" target="_blank" id="Sesion">Inicio Sesion</a>
-        <h1>Plataforma de Crowdfunding Musical</h1>
-        <nav>
-            <ul>
-                <li><a href="#que-es">¿Qué es el Crowdfunding?</a></li>
-                <li><a href="#guia-uso">Guía de Uso</a></li>
-                <li><a href="#solicitar-servicio">Solicitar Servicio</a></li>
-                <li><a href="#campanas-actuales">Campañas Actuales</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="que-es">
-            <h2>¿Qué es el Crowdfunding?</h2>
-            <p>El crowdfunding es una forma de recaudar fondos para un proyecto o emprendimiento a través de pequeñas contribuciones de un gran número de personas, generalmente utilizando Internet. En nuestra plataforma, el crowdfunding está dirigido exclusivamente a proyectos musicales. Esto incluye:</p>
-            <ul>
-                <li><strong>Realización y lanzamiento de discos:</strong> Obtén el financiamiento necesario para producir y lanzar tu próximo álbum.</li>
-                <li><strong>Adquisición de instrumentos:</strong> Reúne los fondos necesarios para comprar nuevos instrumentos musicales.</li>
-                <li><strong>Organización de eventos:</strong> Financia conciertos, giras, festivales y otros eventos musicales.</li>
-                <li><strong>Otras iniciativas musicales:</strong> Cualquier otro proyecto relacionado con la música que necesite apoyo financiero.</li>
-            </ul>
-            <p>El crowdfunding permite a músicos y bandas conectar con sus fans y la comunidad en general para obtener el apoyo necesario para llevar sus proyectos a cabo. Nuestra plataforma facilita este proceso y retiene una comisión del 10% de lo recaudado para el mantenimiento y mejora del servicio.</p>
-        </section>
-
-        <section id="guia-uso">
-            <h2>Guía de Uso</h2>
-            <ol>
-                <li><strong>Registro:</strong> Crea una cuenta en nuestra plataforma.</li>
-                <li><strong>Presenta tu Proyecto:</strong> Completa el formulario con los detalles de tu proyecto musical, incluyendo objetivos, duración de la campaña y el monto necesario.</li>
-                <li><strong>Promoción:</strong> Comparte tu campaña con tu red de contactos y en redes sociales para atraer contribuciones.</li>
-                <li><strong>Recaudación:</strong> Recibe las contribuciones y gestiona tu campaña desde tu panel de control.</li>
-                <li><strong>Comisión:</strong> Nuestra plataforma retiene una comisión del 10% de lo recaudado.</li>
-                <li><strong>Entrega de Recompensas:</strong> Cumple con las promesas y recompensas ofrecidas a los contribuidores.</li>
-            </ol>
-        </section>
-
-        <section id="solicitar-servicio">
-            <h2>Solicitar Servicio</h2>
-            <form action="solicitud-enviada.html" method="get">
-                <label for="nombre">Nombre de la Entidad:</label>
-                <input type="text" id="nombre" name="nombre" required>
-
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="proyecto">Nombre del Proyecto:</label>
-                <input type="text" id="proyecto" name="proyecto" required>
-
-                <label for="descripcion">Descripción del Proyecto:</label>
-                <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
-
-                <label for="monto">Monto Necesario:</label>
-                <input type="number" id="monto" name="monto" required>
-
-                <label for="duracion">Duración de la Campaña (en días):</label>
-                <input type="number" id="duracion" name="duracion" required>
-
-                <button type="submit">Enviar Solicitud</button>
-            </form>
-        </section>
-
-        <section id="campanas-actuales">
-            <h2>Campañas Actuales</h2>
-
-            <div class="campaign">
-                <h3><a href="propio.html">Ayúdanos a mantener nuestra radio</a></h3>
-                <p><strong>Descripción:</strong> Contribuye a la sostenibilidad de nuestra radio y ayúdanos a seguir compartiendo los mejores éxitos de los 80s.</p>
-                <p><strong>Monto Necesario:</strong> Indeterminado</p>
-                <p><strong>Duración:</strong> Indeterminada</p>
-                <div class="share-container">
-                    <div class="share-options" id="RRSS">
-                        <a href="https://wa.me/?text=Estoy%20interesado%20en%20el%20proyecto%20Ayúdanos%20a%20mantener%20nuestra%20radio%20en%20la%20plataforma%20de%20crowdfunding" target="_blank" class="share-option">
-                            <img src="Imagenes/whatsapp-icon.png" id="RRSS" alt="WhatsApp">
-                        </a>
-                        <a href="https://twitter.com/intent/tweet?text=Estoy%20interesado%20en%20el%20proyecto%20Ayúdanos%20a%20mantener%20nuestra%20radio%20en%20la%20plataforma%20de%20crowdfunding" target="_blank" class="share-option">
-                            <img src="Imagenes/twitter-icon.png" id="RRSS" alt="Twitter">
-                        </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://example.com/campana-mantener-radio" target="_blank" class="share-option">
-                            <img src="Imagenes/facebook-icon.png" id="RRSS" alt="Facebook">
-                        </a>
-                    </div>
-                </div>
-            </div>
-           
-            <div class="campaign">
-                <h3><a href="rockeros.html">Nuevo Álbum de "Los Rockeros"</a></h3>
-                <p><strong>Descripción:</strong> Ayuda a "Los Rockeros" a producir y lanzar su nuevo álbum de estudio.</p>
-                <p><strong>Monto Necesario:</strong> 10,000€</p>
-                <p><strong>Duración:</strong> 30 días</p>
-                <div class="share-container">
-                    <div class="share-options" id="RRSS">
-                        <a href="https://wa.me/?text=Estoy%20interesado%20en%20el%20proyecto%20Nuevo%20Álbum%20de%20Los%20Rockeros%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank" class="share-option">
-                            <img src="Imagenes/whatsapp-icon.png" id="RRSS" alt="WhatsApp">
-                            
-                        </a>
-                        <a href="https://twitter.com/intent/tweet?text=Estoy%20interesado%20en%20el%20proyecto%20Nuevo%20Álbum%20de%20Los%20Rockeros%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank" class="share-option">
-                            <img src="Imagenes/twitter-icon.png" id="RRSS" alt="Twitter">
-                            
-                        </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://example.com/campana-album-rockeros" target="_blank" class="share-option">
-                            <img src="Imagenes/facebook-icon.png" id="RRSS" alt="Facebook">
-                            
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="campaign">
-                <h3><a href="jazz.html">Compra de Nuevos Instrumentos para "Jazz Band"</a></h3>
-                <p><strong>Descripción:</strong> "Jazz Band" necesita nuevos instrumentos para su próxima gira.</p>
-                <p><strong>Monto Necesario:</strong> 5,000€</p>
-                <p><strong>Duración:</strong> 45 días</p>
-                <div class="share-container">
-                    <div class="share-options" id="RRSS">
-                        <a href="https://wa.me/?text=Estoy%20interesado%20en%20el%20proyecto%20Compra%20de%20Nuevos%20Instrumentos%20para%20Jazz%20Band%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank" class="share-option">
-                            <img src="Imagenes/whatsapp-icon.png" id="RRSS" alt="WhatsApp">
-                            
-                        </a>
-                        <a href="https://twitter.com/intent/tweet?text=Estoy%20interesado%20en%20el%20proyecto%20Compra%20de%20Nuevos%20Instrumentos%20para%20Jazz%20Band%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank" class="share-option">
-                            <img src="Imagenes/twitter-icon.png" id="RRSS" alt="Twitter">
-                            
-                        </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://example.com/campana-instrumentos-jazz" target="_blank" class="share-option">
-                            <img src="Imagenes/facebook-icon.png" id="RRSS" alt="Facebook">
-                            
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="campaign">
-                <h3><a href="festival.html">Festival de Música Indie</a></h3>
-                <p><strong>Descripción:</strong> Organiza un festival para promover nuevas bandas indie.</p>
-                <p><strong>Monto Necesario:</strong> 15,000€</p>
-                <p><strong>Duración:</strong> 60 días</p>
-                <div class="share-container">
-                    <div class="share-options" id="RRSS">
-                        <a href="https://wa.me/?text=Estoy%20interesado%20en%20el%20proyecto%20Festival%20de%20Música%20Indie%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank" class="share-option">
-                            <img src="Imagenes/whatsapp-icon.png" id="RRSS" alt="WhatsApp">
-                            
-                        </a>
-                        <a href="https://twitter.com/intent/tweet?text=Estoy%20interesado%20en%20el%20proyecto%20Festival%20de%20Música%20Indie%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank" class="share-option">
-                            <img src="Imagenes/twitter-icon.png" id="RRSS" alt="Twitter">
-                            
-                        </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://example.com/campana-festival-indie" target="_blank" class="share-option">
-                            <img src="Imagenes/facebook-icon.png" id="RRSS" alt="Facebook">
-                            
-                        </a>
-            </div>
-
-            
-        
-           
-        </section>
-    </main>
-
-    <footer id="footer3">
-        <p>
+<header>
+<img alt="logo" id="logo" src="Imagenes/logoradio.png"/>
+<h1>Increibles 80's</h1>
+<a href="index.html" id="Inicio" target="_blank">Inicio</a>
+<a href="contacto.html" id="Contacto" target="_blank">Contacto</a>
+<a href="sesion.html" id="Sesion" target="_blank">Inicio Sesion</a>
+<h1>Plataforma de Crowdfunding Musical</h1>
+<nav>
+<ul>
+<li><a href="#que-es">¿Qué es el Crowdfunding?</a></li>
+<li><a href="#guia-uso">Guía de Uso</a></li>
+<li><a href="#solicitar-servicio">Solicitar Servicio</a></li>
+<li><a href="#campanas-actuales">Campañas Actuales</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="que-es">
+<h2>¿Qué es el Crowdfunding?</h2>
+<p>El crowdfunding es una forma de recaudar fondos para un proyecto o emprendimiento a través de pequeñas contribuciones de un gran número de personas, generalmente utilizando Internet. En nuestra plataforma, el crowdfunding está dirigido exclusivamente a proyectos musicales. Esto incluye:</p>
+<ul>
+<li><strong>Realización y lanzamiento de discos:</strong> Obtén el financiamiento necesario para producir y lanzar tu próximo álbum.</li>
+<li><strong>Adquisición de instrumentos:</strong> Reúne los fondos necesarios para comprar nuevos instrumentos musicales.</li>
+<li><strong>Organización de eventos:</strong> Financia conciertos, giras, festivales y otros eventos musicales.</li>
+<li><strong>Otras iniciativas musicales:</strong> Cualquier otro proyecto relacionado con la música que necesite apoyo financiero.</li>
+</ul>
+<p>El crowdfunding permite a músicos y bandas conectar con sus fans y la comunidad en general para obtener el apoyo necesario para llevar sus proyectos a cabo. Nuestra plataforma facilita este proceso y retiene una comisión del 10% de lo recaudado para el mantenimiento y mejora del servicio.</p>
+</section>
+<section id="guia-uso">
+<h2>Guía de Uso</h2>
+<ol>
+<li><strong>Registro:</strong> Crea una cuenta en nuestra plataforma.</li>
+<li><strong>Presenta tu Proyecto:</strong> Completa el formulario con los detalles de tu proyecto musical, incluyendo objetivos, duración de la campaña y el monto necesario.</li>
+<li><strong>Promoción:</strong> Comparte tu campaña con tu red de contactos y en redes sociales para atraer contribuciones.</li>
+<li><strong>Recaudación:</strong> Recibe las contribuciones y gestiona tu campaña desde tu panel de control.</li>
+<li><strong>Comisión:</strong> Nuestra plataforma retiene una comisión del 10% de lo recaudado.</li>
+<li><strong>Entrega de Recompensas:</strong> Cumple con las promesas y recompensas ofrecidas a los contribuidores.</li>
+</ol>
+</section>
+<section id="solicitar-servicio">
+<h2>Solicitar Servicio</h2>
+<form action="solicitud-enviada.html" method="get">
+<label for="nombre">Nombre de la Entidad:</label>
+<input id="nombre" name="nombre" required="" type="text"/>
+<label for="email">Correo Electrónico:</label>
+<input id="email" name="email" required="" type="email"/>
+<label for="proyecto">Nombre del Proyecto:</label>
+<input id="proyecto" name="proyecto" required="" type="text"/>
+<label for="descripcion">Descripción del Proyecto:</label>
+<textarea id="descripcion" name="descripcion" required="" rows="4"></textarea>
+<label for="monto">Monto Necesario:</label>
+<input id="monto" name="monto" required="" type="number"/>
+<label for="duracion">Duración de la Campaña (en días):</label>
+<input id="duracion" name="duracion" required="" type="number"/>
+<button type="submit">Enviar Solicitud</button>
+</form>
+</section>
+<section id="campanas-actuales">
+<h2>Campañas Actuales</h2>
+<div class="campaign">
+<h3><a href="propio.html">Ayúdanos a mantener nuestra radio</a></h3>
+<p><strong>Descripción:</strong> Contribuye a la sostenibilidad de nuestra radio y ayúdanos a seguir compartiendo los mejores éxitos de los 80s.</p>
+<p><strong>Monto Necesario:</strong> Indeterminado</p>
+<p><strong>Duración:</strong> Indeterminada</p>
+<div class="share-container">
+<div class="share-options" id="RRSS">
+<a class="share-option" href="https://wa.me/?text=Estoy%20interesado%20en%20el%20proyecto%20Ayúdanos%20a%20mantener%20nuestra%20radio%20en%20la%20plataforma%20de%20crowdfunding" target="_blank">
+<img alt="WhatsApp" id="RRSS" src="Imagenes/whatsapp-icon.png"/>
+</a>
+<a class="share-option" href="https://twitter.com/intent/tweet?text=Estoy%20interesado%20en%20el%20proyecto%20Ayúdanos%20a%20mantener%20nuestra%20radio%20en%20la%20plataforma%20de%20crowdfunding" target="_blank">
+<img alt="Twitter" id="RRSS" src="Imagenes/twitter-icon.png"/>
+</a>
+<a class="share-option" href="https://www.facebook.com/sharer/sharer.php?u=https://example.com/campana-mantener-radio" target="_blank">
+<img alt="Facebook" id="RRSS" src="Imagenes/facebook-icon.png"/>
+</a>
+</div>
+</div>
+</div>
+<div class="campaign">
+<h3><a href="rockeros.html">Nuevo Álbum de "Los Rockeros"</a></h3>
+<p><strong>Descripción:</strong> Ayuda a "Los Rockeros" a producir y lanzar su nuevo álbum de estudio.</p>
+<p><strong>Monto Necesario:</strong> 10,000€</p>
+<p><strong>Duración:</strong> 30 días</p>
+<div class="share-container">
+<div class="share-options" id="RRSS">
+<a class="share-option" href="https://wa.me/?text=Estoy%20interesado%20en%20el%20proyecto%20Nuevo%20Álbum%20de%20Los%20Rockeros%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank">
+<img alt="WhatsApp" id="RRSS" src="Imagenes/whatsapp-icon.png"/>
+</a>
+<a class="share-option" href="https://twitter.com/intent/tweet?text=Estoy%20interesado%20en%20el%20proyecto%20Nuevo%20Álbum%20de%20Los%20Rockeros%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank">
+<img alt="Twitter" id="RRSS" src="Imagenes/twitter-icon.png"/>
+</a>
+<a class="share-option" href="https://www.facebook.com/sharer/sharer.php?u=https://example.com/campana-album-rockeros" target="_blank">
+<img alt="Facebook" id="RRSS" src="Imagenes/facebook-icon.png"/>
+</a>
+</div>
+</div>
+</div>
+<div class="campaign">
+<h3><a href="jazz.html">Compra de Nuevos Instrumentos para "Jazz Band"</a></h3>
+<p><strong>Descripción:</strong> "Jazz Band" necesita nuevos instrumentos para su próxima gira.</p>
+<p><strong>Monto Necesario:</strong> 5,000€</p>
+<p><strong>Duración:</strong> 45 días</p>
+<div class="share-container">
+<div class="share-options" id="RRSS">
+<a class="share-option" href="https://wa.me/?text=Estoy%20interesado%20en%20el%20proyecto%20Compra%20de%20Nuevos%20Instrumentos%20para%20Jazz%20Band%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank">
+<img alt="WhatsApp" id="RRSS" src="Imagenes/whatsapp-icon.png"/>
+</a>
+<a class="share-option" href="https://twitter.com/intent/tweet?text=Estoy%20interesado%20en%20el%20proyecto%20Compra%20de%20Nuevos%20Instrumentos%20para%20Jazz%20Band%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank">
+<img alt="Twitter" id="RRSS" src="Imagenes/twitter-icon.png"/>
+</a>
+<a class="share-option" href="https://www.facebook.com/sharer/sharer.php?u=https://example.com/campana-instrumentos-jazz" target="_blank">
+<img alt="Facebook" id="RRSS" src="Imagenes/facebook-icon.png"/>
+</a>
+</div>
+</div>
+</div>
+<div class="campaign">
+<h3><a href="festival.html">Festival de Música Indie</a></h3>
+<p><strong>Descripción:</strong> Organiza un festival para promover nuevas bandas indie.</p>
+<p><strong>Monto Necesario:</strong> 15,000€</p>
+<p><strong>Duración:</strong> 60 días</p>
+<div class="share-container">
+<div class="share-options" id="RRSS">
+<a class="share-option" href="https://wa.me/?text=Estoy%20interesado%20en%20el%20proyecto%20Festival%20de%20Música%20Indie%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank">
+<img alt="WhatsApp" id="RRSS" src="Imagenes/whatsapp-icon.png"/>
+</a>
+<a class="share-option" href="https://twitter.com/intent/tweet?text=Estoy%20interesado%20en%20el%20proyecto%20Festival%20de%20Música%20Indie%20en%20mi%20plataforma%20de%20crowdfunding" target="_blank">
+<img alt="Twitter" id="RRSS" src="Imagenes/twitter-icon.png"/>
+</a>
+<a class="share-option" href="https://www.facebook.com/sharer/sharer.php?u=https://example.com/campana-festival-indie" target="_blank">
+<img alt="Facebook" id="RRSS" src="Imagenes/facebook-icon.png"/>
+</a>
+</div>
+</div></div></section>
+</main>
+<footer id="footer3">
+<p>
             Este sitio es una representación de una página web para el proyecto de síntesis del ciclo formativo SMIR y solo tiene fines didacticos.
-<br>
+<br/>
             En ningun caso tiene fines lucrativos y no dispone de los derechos de reproducción del contenido audiovisual.
         </p>
-            
-    
-
-
-    </footer>
+</footer>
 </body>
 </html>

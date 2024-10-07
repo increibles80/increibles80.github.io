@@ -257,3 +257,12 @@ h1 {
     margin-bottom: 100px;
   }
   
+@media (max-width: 768px) {
+    body {
+        height: auto;  /* Adjust height for mobile */
+    }
+    h1 {
+        font-size: 30px;  /* Responsive font size */
+    }
+    /* Add more responsive styles as needed */
+}
