@@ -415,3 +415,141 @@ color: #fa0707;
 
 
 
+/* Responsive Styles for resolutions other than 1920x1080 */
+
+/* Mobile Styles - Up to 600px width */
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #logo {
+    width: 80px;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #nav-links {
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nav-item {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  main {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #81777738;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .video-background {
+    height: auto;
+  }
+}
+
+/* Tablet Styles - Between 601px and 1024px width */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  #logo {
+    width: 120px;
+    margin-left: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
+
+  main {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #81777738;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
