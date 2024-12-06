@@ -1,18 +1,15 @@
 
-/* Original Styles from provided CSS */
 html, body {
-  height: auto;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
+  height: 1500px;
 }
 
-/* Header and Title Styling */
+
+
 h1 {
   font-size: calc(50px);
   line-height: calc(20px + 20vh);
   text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-  color: #fff6a9;
+    color: #fff6a9;
   font-family: "Sacramento", cursive;
   text-align: center;
   animation: blink 12s infinite;
@@ -21,8 +18,10 @@ h1 {
 }
 
 body {
+  
   justify-content: center;
   align-items: center;
+  height: 100vh;
   background: #222;
   background-image: repeating-linear-gradient(
     to bottom,
@@ -33,7 +32,52 @@ body {
   );
 }
 
-/* Video Background */
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+
+
 .video-background {
   position: fixed;
   top: 0;
@@ -42,21 +86,44 @@ body {
   pointer-events: none; 
   z-index: -1;
   opacity: 0.2;
+  
 }
-
-/* Logo Styling */
-#logo {
+#logo{
   max-width: none;
   height: auto;
   width: 150px;
   margin-left: 50px;
   border-radius: 35px;
-  box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000, 0 0 60px #ff0000;
-  animation: destello 1s infinite alternate;
+  box-shadow: 0 0 10px #ff0000,
+  0 0 20px #ff0000,
+  0 0 40px #ff0000,
+  0 0 60px #ff0000;
+  animation: destello 1s  infinite alternate;
+  
+  
 }
 
-/* Header, Navigation, and Footer */
-#Inicio, #Crowdfounding, #Contacto, #Sesion {
+@keyframes destello {
+  0%, 100% {
+    box-shadow: 
+      0 0 5px #ff0000, 
+      0 0 10px #00ffff, 
+      0 0 20px #ff0000, 
+      0 0 30px #00ffff, 
+      0 0 40px #ff0000;
+  }
+  50% {
+    box-shadow: 
+      0 0 10px #00ffff, 
+      0 0 20px #ff0000, 
+      0 0 30px #00ffff, 
+      0 0 40px #ff0000, 
+      0 0 50px #00ffff;
+  }
+}
+
+
+#Inicio{
   font-family: sans-serif;
   text-decoration: none;
   background-color: #fec940;
@@ -68,198 +135,189 @@ body {
   font-size: 20px;
   margin-left: 50px;
   cursor: pointer;
-  animation: destello 1s infinite alternate;
-  white-space: nowrap;
+  animation: destello 1s  infinite alternate;
+  
+  
+
 }
 
-#header {
+#Crowdfounding{
+  font-family: sans-serif;
+  text-decoration: none;
+  background-color: #fec940;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 50px;
+  text-align: center;
+  color: #595959;
+  font-size: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+  animation: destello 1s  infinite alternate;
+  
+}
+
+#Contacto{
+  font-family: sans-serif;
+  text-decoration: none;
+  background-color: #fec940;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 50px;
+  text-align: center;
+  color: #595959;
+  font-size: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+  animation: destello 1s  infinite alternate;
+  
+}
+
+#Sesion{
+  font-family: sans-serif;
+  text-decoration: none;
+  background-color: #fec940;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 50px;
+  text-align: center;
+  color: #595959;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  cursor: pointer;
+  animation: destello 1s  infinite alternate;
+  white-space: nowrap;
+}
+#header{
   width: 100%;
+ 
   display: flex;
   align-items: center;
   background-color: #302d2d;
   height: 150px;
   justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
   position: relative;
+ 
 }
 
-/* Main Content and Aside Styling */
+#separo{
+  animation: destello 1s  infinite alternate;
+  bottom: 1000px;
+
+  
+
+}
+
+
+
+.footer-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
 main {
-  font-family: Arial;
-  width: 80%;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: row;
-  color: aliceblue;
-  font-size: 20px;
-  margin-bottom: 50px;
-  flex: 1;
+font-family: Arial;
+width: 80%;
+margin: 20px auto;
+display: flex;
+flex-direction: row;
+color: aliceblue;
+font-size: 20px;
+margin-bottom: 50px;
+
+
+
 }
 
 main section {
-  flex: 1;
-  margin-right: 20px;
+flex: 1;
+margin-right: 20px;
 }
 
 aside {
-  font-family: Arial;
-  font-size: 18px;
-  display: flex;
-  color: white;
-  padding: 10px;
-  margin: 20px auto;
-  border-radius: 25px;
-  background-color: #81777738;
-  height: auto;
-  margin-bottom: 20px;
-  max-width: 90%;
+font-family: Arial;
+font-size: 18px;
+display: flex;
+color: white;
+padding: 10px;
+margin-left: 1000px;
+padding-bottom: 600px;
+margin-right: 50px;
+border-radius: 25px;
+background-color: #81777738;
+height: 850px;
+margin-bottom: 100px;
 }
 
-/* Footer Styling with "disclamer" visible below #radio */
-footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: #302d2d;
-  padding: 20px;
-  justify-content: center;
-  color: aliceblue;
-  font-size: 16px;
-  font-family: Arial, sans-serif;
+#curiosidades{
+margin-top: 125px;
+margin-left: -250px;
+
 }
 
-#radio {
+
+
+#radio{
   display: flex;
   height: 115px;
-  width: 650px; /* Restored original size */
+  width: 650px;
   border-radius: 25px;
-  margin: 10px auto;
-}
-
-#disclamer {
-  margin-top: 10px;
-  font-size: 0.9em;
-  align-self: center; /* Centers the disclamer below the radio */
-}
-
-/* Responsive Adjustments for 526x842 resolution with adjusted aside */
-@media (max-width: 526px) {
-  #header {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    height: auto;
-  }
-
-  #logo {
-    width: 100px;
-    margin-left: 0;
-  }
-
-  h1 {
-    font-size: 32px;
-    line-height: calc(15px + 15vh);
-    margin-left: 0;
-  }
-
-  #Inicio, #Crowdfounding, #Contacto, #Sesion {
-    padding: 8px 20px;
-    font-size: 14px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  main {
-    flex-direction: column;
-    width: 95%;
-    margin: 10px auto;
-  }
-
-  aside {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    height: auto; /* Adjusts height to avoid overlap with footer */
-    font-size: 16px;
+  left: 0;
+  position: fixed;
+  margin-left: 10px;
+  bottom: 100px;
   }
 
   footer {
-    padding: 10px;
-    font-size: 16px;
-    flex-direction: column;
-  }
-}
 
-/* Responsive Adjustments for 393x852 resolution with adjusted aside */
-@media (max-width: 393px) {
-  #header {
-    flex-direction: column;
-    align-items: center;
-    padding: 8px;
-    height: auto;
-  }
-
-  #logo {
-    width: 80px;
-    margin-left: 0;
-  }
-
-  h1 {
-    font-size: 28px;
-    line-height: calc(12px + 12vh);
-    margin-left: 0;
-  }
-
-  #Inicio, #Crowdfounding, #Contacto, #Sesion {
-    padding: 6px 15px;
-    font-size: 12px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  main {
-    flex-direction: column;
-    width: 90%;
-    margin: 10px auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: #302d2d;
+    width: 99%;
+    height: 100px;
+    justify-content: center;
+    border-radius: 25px;
+    margin-left: 10px;
+    color: aliceblue;
     font-size: 18px;
+    font-family: Arial, sans-serif;
+    
   }
 
-  aside {
-    width: 100%;
-    margin: 10px 0;
-    padding: 8px;
-    height: auto; /* Adjusts height to avoid overlap with footer */
-    font-size: 14px;
+  #disclamer{
+
+    margin-top: -5px;
   }
 
-  footer {
-    padding: 8px;
-    font-size: 14px;
-    flex-direction: column;
-  }
+
+
+
+#sabias{
+
+margin-left: 60px;
+white-space: nowrap;
 }
 
-/* Additional Keyframe Animations from original CSS */
-@-webkit-keyframes blink {
-  20%, 24%, 55% {
-    color: #111;
-    text-shadow: none;
-  }
-  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
-  }
+#pag{
+color: #fa0707;
 }
 
-@keyframes destello {
-  0%, 100% {
-    box-shadow: 0 0 5px #ff0000, 0 0 10px #00ffff, 0 0 20px #ff0000, 0 0 30px #00ffff, 0 0 40px #ff0000;
-  }
-  50% {
-    box-shadow: 0 0 10px #00ffff, 0 0 20px #ff0000, 0 0 30px #00ffff, 0 0 40px #ff0000, 0 0 50px #00ffff;
-  }
-}
+
+
+
+
+
+
+
+
+
